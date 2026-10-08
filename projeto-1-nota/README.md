@@ -1,6 +1,6 @@
-# Meu Controle Financeiro 💰
+# Meu Controle Financeiro
 
-Projeto da 1ª nota da disciplina de React (2026.2).
+Projeto da 1ª nota da disciplina de React.
 
 É um sistema de controle financeiro pessoal onde dá pra cadastrar receitas e despesas e ver o saldo.
 
@@ -32,39 +32,4 @@ npm install
 npm run dev
 ```
 
-Depois é só abrir o link que aparecer no terminal (normalmente <http://localhost:5173>).
-
-## Estrutura de pastas
-
-```text
-src/
-  layout/
-    LayoutPrincipal.jsx          -> sidebar + página (children) + rodapé
-  pages/
-    PaginaInicial.jsx            -> início: resumo e gráficos
-    PaginaHistorico.jsx          -> histórico de movimentações
-    PaginaCategorias.jsx         -> cadastro de categorias
-  componentes/
-    ui/                          -> componentes do shadcn
-    BarraLateral.jsx             -> sidebar com o menu
-    TituloPagina.jsx
-    Rodape.jsx
-    ResumoFinanceiro.jsx         -> os 3 cards de resumo
-    CardResumo.jsx
-    ModalNovaMovimentacao.jsx    -> botão + modal de cadastro
-    FormularioMovimentacao.jsx
-    ListaMovimentacoes.jsx
-    ItemMovimentacao.jsx
-    FormularioCategoria.jsx
-    ListaCategorias.jsx
-    GraficoReceitasDespesas.jsx
-    GraficoDespesasCategoria.jsx
-  utilitarios/
-    alertas.js                   -> funções do SweetAlert2
-    categorias.js                -> categorias padrão
-    formatarMoeda.js             -> formata número em R$
-    utils.js                     -> do shadcn
-  App.jsx                        -> states, funções e rotas
-  main.jsx
-  index.css
-```
+Depois é só abrir o link que aparecer no terminal (<http://localhost:5173>).
