@@ -1,0 +1,15 @@
+export const categoriasPadrao = [
+  { id: 1, nome: "Salário", tipo: "receita" },
+  { id: 2, nome: "Freelance", tipo: "receita" },
+  { id: 3, nome: "Investimentos", tipo: "receita" },
+  { id: 4, nome: "Presente", tipo: "receita" },
+  { id: 5, nome: "Outros", tipo: "receita" },
+  { id: 6, nome: "Alimentação", tipo: "despesa" },
+  { id: 7, nome: "Transporte", tipo: "despesa" },
+  { id: 8, nome: "Moradia", tipo: "despesa" },
+  { id: 9, nome: "Lazer", tipo: "despesa" },
+  { id: 10, nome: "Saúde", tipo: "despesa" },
+  { id: 11, nome: "Educação", tipo: "despesa" },
+  { id: 12, nome: "Contas", tipo: "despesa" },
+  { id: 13, nome: "Outros", tipo: "despesa" },
+];
